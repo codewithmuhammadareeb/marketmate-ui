@@ -1,0 +1,36 @@
+name: market_mate
+description: "A modern Flutter Hackathon project with clean architecture."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  get: ^4.6.6
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  camera: ^0.11.0+2
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  lottie: ^3.1.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  lint: ^2.0.0
